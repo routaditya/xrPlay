@@ -4,6 +4,7 @@ import { OrbitControls } from '@react-three/drei';
 import { Sky } from '@react-three/drei';
 import Cube from "./cube.jsx";
 import useSocket from './useSocket';
+import OtherUsers from './otherUsers.js';
 
 function App() {
   const [users, setUsers] = useState({});
